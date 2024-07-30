@@ -11,9 +11,8 @@ public class GitHubTest {
 
     @BeforeAll
     public static void setUp() {
-        // Открыть браузер и перейти на базовый URL
         Configuration.baseUrl = "https://github.com";
-        Configuration.browser = "chrome"; // Можно изменить на другой браузер при необходимости
+        Configuration.browser = "chrome";
         open("/");
     }
 
